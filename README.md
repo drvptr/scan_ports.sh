@@ -7,12 +7,11 @@ A lightweight port scanner written in POSIX-compliant shell (`sh`). This script 
 - **Customizable**: Scan a specific IP and port range via command-line arguments.
 - **Ping check**: Warns if the target IP is unreachable.
 - **POSIX-compliant**: Works in any POSIX-compatible shell (`sh`), ensuring portability to most Unix-based systems.
-- **Lightweight**: Runs efficiently on resource-constrained environments like Docker or embedded systems.
 
 ## Usage
 
 ### Basic Usage
 Scan all ports on the local machine (localhost):
 ```sh
-./scan.sh
+./scan_ports.sh 127.0.0.1 22 5900
 
